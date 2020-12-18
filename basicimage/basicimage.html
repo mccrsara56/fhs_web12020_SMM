@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            * {
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            header {
+                text-align:center;
+                padding:1vh;
+                color:#8e9aaf;
+            }
+            body {
+                background: #dee2ff;
+            }
+            header h1 {
+                color:#efd3d7;
+                padding:2vh;
+                width:60%;
+                margin:1vh auto;
+                border-radius:12px;
+            }
+            nav {
+                background:#efd3d7;
+                color:#8e9aaf;
+                padding:2vh;
+            }
+            footer {
+                background:#efd3d7;
+                color:#8e9aaf;
+                padding:2vh;
+                min-height:15vh;
+            }
+            .container {
+                min-height:75vh;
+                width:80%;
+                margin:1vh auto;
+            }
+            .jumbotron img{
+              width:100%;
+              height:auto;
+              display:block;
+              filter: grayscale(100%) blur(1px) brightness(75%);
+              border-radius:12px;
+            }
+            .jumbotron {
+              position:relative;
+              width:100%;
+              color:white;
+              text-align:center;
+            }
+            .overlay{
+              height:100%;
+              width:100%;
+              position:absolute;
+              bottom:0;
+              align-self:center;
+              left:0;
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              flex-direction:column;
+              background:(#0096c7 .35);
+                border-radius:12px;
+            }
+            .overlay h3{
+              font-size:3rem;
+              margin:1rem;
+            }
+            .overlay p{
+              font-size:1.5rem;
+            }
+            .flex-container{
+              display:flex;
+              flex-wrap:wrap;
+              justify-content:flex-start;
+              align-items:stretch;
+              gap:2vh;
+              padding:2rem;
+              background:#feeafa;
+              margin:1vh auto;
+            }
+            
+            .flex-item{
+              flex:0 0 calc(100%/3 - 1.34rem);
+              outline:1px lightgray solid;
+              box-shadow:8px 8px 12px 0px rgba(0,0,0,0.5);
+            }
+            
+            .flex-item h3{
+              padding:2vh;
+              background-color:darkblue;
+              color:#cbc0d3;
+            }
+            
+            .flex-item p{
+              padding:2vh;
+              line-height:1.5rem;
+            }
+            
+            .media img{
+              display:block;
+              width:100%;
+            }
+            
+            
+        </style>
+        <title>Basic Image Gallery</title>
+    </head>
+    
+    <body>
+        <header>
+          &nbsp;
+        </header>
+        <nav>
+            Placeholder
+        </nav>
+        
+        <div class="container">
+          
+           <div class="jumbotron">
+          <img src="images/imagegallery.png" alt="#" title="jumbo image">
+          <div class="overlay">
+            <h3>Basic Image Gallery</h3>
+            <p>Sarah McCrory<br>
+                Web 1, 4<br>
+                11/20/20</p>
+          </div>
+          </div>
+            <!-- Write Assignment code under here-->
+            <div class="flex-container">
+             
+             <div class="flex-item">
+               <div class="media">
+                 <img src="images/pitbullpuppies.jpg" alt="#">
+                 
+               </div>
+               <h3>PitBull</h3>
+               <p>
+                I love pitbulls; they are the sweetest little creatures ever.
+ one reason why I love people is that they are very protective and they will do anything for their owners
+
+               </p>
+         
+            </div><!-- End flex item -->
+            
+               
+             <div class="flex-item">
+               <div class="media">
+                 <img src="images/doberman.webp" alt="#">
+                 
+               </div>
+               <h3>Doberman</h3>
+               <p>
+                 I love Doberman they are the most beautiful dogs ever
+one reason why I love Dobermans is that they are very funny when they're playing
+
+
+               </p>
+         
+            </div><!-- End flex item -->
+            
+               
+             <div class="flex-item">
+               <div class="media">
+                 <img src="images/rotweiler.jpg" alt="#">
+                 
+               </div>
+               <h3>Rotweiler</h3>
+               <p>
+                 
+ I love rottweilers the reason why is because they are protective and sweet
+ also because they will send signals to people like most dogs would when they are not good people to tell them to back off if they try to do something to harm their owners for even them.
+
+
+               </p>
+             </div><!-- End flex item -->
+            
+               
+             <div class="flex-item">
+               <div class="media">
+                 <img src="images/goldenlabmix.jpeg" alt="#">
+                 
+               </div>
+               <h3>Golden Labador Mix</h3>
+               <p>
+                 I love golden retriever Labrador mixes the reason why is because they are very energetic dogs and also they we'll have you out of breath and you get your cardio for that day playing around with them
+
+               </p>
+             </div><!-- End flex item -->
+            
+               
+             <div class="flex-item">
+               <div class="media">
+                 <img src="images/husky.jpeg" alt="#">
+                 
+               </div>
+               <h3>Husky</h3>
+               <p>
+                 
+ I love Huskies The reason why I love Huskies is because they are very calm and subtle dogs. also they will have you laughing because they sometimes talk like a human
+
+
+               </p>
+             </div><!-- End flex item -->
+            
+               
+             <div class="flex-item">
+               <div class="media">
+                 <img src="images/boxer.jpeg" alt="#">
+                 
+               </div>
+               <h3>Boxer</h3>
+               <p>
+                 
+ I love boxers. They are very energetic and happy dogs. Also they are very good protection systems.
+
+
+               </p>
+             </div><!-- End flex item -->
+
+             <div class="flex-item">
+               <div class="media">
+                 <img src="images/german.jpeg" alt="#">
+                 
+               </div>
+               <h3>German Sheperd</h3>
+               <p>
+                  I love German Shepherds the reason why is because they can be trained to attack people that are a threat to them or to their owner. also they are very playful dogs.
+
+
+
+               </p>
+             </div><!-- End flex item -->
+
+               
+             <div class="flex-item">
+               <div class="media">
+                 <img src="images/greatdane.jpeg" alt="#">
+                 
+               </div>
+               <h3>Great Dane</h3>
+               <p>
+                 I love Great Dane. The reason why is because they are big dogs and they are funny.
+ also they don't shed a lot.
+
+               </p>
+             </div><!-- End flex item -->
+            
+               
+             <div class="flex-item">
+               <div class="media">
+                 <img src="images/dalmation.jpeg" alt="#">
+                 
+               </div>
+               <h3>Dalmation</h3>
+               <p>
+                  I love Dalmatians. The reason why is because they are very spotty dogs which are very cute. also they are very happy fun dogs
+
+
+
+
+               </p>
+             </div><!-- End flex item -->
+               
+             <div class="flex-item">
+               <div class="media">
+                 <img src="images/rhodsianrigdeback.jpeg" alt="#">
+                 
+               </div>
+               <h3>Rhodsian Rigdeback</h3>
+               <p>
+                 
+ I love Rhodsian ridgebacks because they look like pitbulls and I love animals mostly dogs. also because they are very energetic and a good protection system.
+ 
+  Honestly all dogs are a good protection system. Every dog that I have on this Page is a good protection system. I love dogs.
+
+               </p>
+             </div><!-- End flex item -->
+             
+          
+          
+          
+          
+          </div>
+        </div><!-- End of container -->
+        
+        <footer>
+            Placeholder
+            
+        </footer>
+
+    <!-- End of page code, but be sure to copy closing tags below-->
+    </body>
+</html>
